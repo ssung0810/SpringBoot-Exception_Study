@@ -208,7 +208,7 @@ resource/templates/error안에 4xx, 404, 500, 5xx 등 에러코드에 맞는 이
 
 이렇게 전달된 데이터는 에러페이지 html에서 출력할 수 있다.
 
-model에 담기는 내용중 exception, message, stack, errors는 출력되기에는 민감한 내요들이기 때문에 스프링부트에서 기본값으로 출력이 안되도록 설정되있다.
+model에 담기는 내용중 exception, message, stack, errors는 출력되기에는 민감한 내용들이기 때문에 스프링부트에서 기본값으로 출력이 안되도록 설정되있다.
 만약 출력을 원한다면 server.error.include-exception=true와 같이 원하는 내용을 설정해주어야 한다.
 
 <br>
